@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Gallery
 %define	pnam	Remote
 Summary:	Gallery::Remote - Perl extension for interacting with the Gallery remote protocol
